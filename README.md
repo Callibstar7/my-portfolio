@@ -17,9 +17,9 @@ A responsive, single-page portfolio built with plain HTML, CSS, and JavaScript. 
 
 ## Before publishing
 
-- Add your availability, biography, and accurate `X+` figures in `index.html` before publishing. Your name, Lagos location, and email are already filled in.
-- The first three cards document 4EVA-KLASY, Juniper & Stone, and Nigeria Brief; replace the remaining sample card when you have another project.
-- Replace the sample skills with your real tools, then add links to your social profiles in the contact section.
+- Review the hero and About copy as your goals and experience grow. The page avoids unsupported experience, project, and client totals.
+- The Projects section currently features 4EVA-KLASY, Juniper & Stone, and Nigeria Brief.
+- The Skills section reflects the web, creative, productivity, and communication tools listed in the CV.
 - The CV button downloads the professional CV from `assets/Caleb_Ibezim_CV.docx`.
 - Remove any skills, claims, or contact response-time statements that do not apply to you.
 
@@ -32,4 +32,5 @@ A responsive, single-page portfolio built with plain HTML, CSS, and JavaScript. 
 - 560px and below: compact spacing and controls.
 
 The navigation and scroll effects respect reduced-motion preferences.
+
 
