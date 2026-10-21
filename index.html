@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
  
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary">
+    <nav class="nav container" aria-label="Primary" data-i18n-aria="navLabel">
       <a href="#home" class="logo">Caleb Ibezim<span>.</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
         <span class="nav-toggle-bar"></span>
@@ -24,11 +24,11 @@
         <span class="nav-toggle-bar"></span>
       </button>
       <ul class="nav-menu" id="nav-menu">
-        <li><a class="nav-link active" href="#home">Home</a></li>
-        <li><a class="nav-link" href="#about">About</a></li>
-        <li><a class="nav-link" href="#skills">Skills</a></li>
-        <li><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-cta-item"><a class="btn btn-primary btn-sm" href="#contact">Hire Me</a></li>
+        <li><a class="nav-link active" href="#home" data-i18n="home">Home</a></li>
+        <li><a class="nav-link" href="#about" data-i18n="aboutNav">About</a></li>
+        <li><a class="nav-link" href="#skills" data-i18n="skillsNav">Skills</a></li>
+        <li><a class="nav-link" href="#projects" data-i18n="projectsNav">Projects</a></li>
+        <li class="nav-cta-item"><a class="btn btn-primary btn-sm" href="#contact" data-i18n="hireMe">Hire Me</a></li>
       </ul>
     </nav>
   </header>
@@ -39,17 +39,17 @@
     <section class="hero" id="home">
       <div class="container hero-inner">
         <div class="hero-copy">
-          <p class="hero-eyebrow reveal"><span class="status-dot"></span> Open to remote opportunities</p>
-          <h1 class="reveal">Hi, I'm <span class="gradient-text">Caleb Ibezim</span><br />I build responsive websites.</h1>
-          <p class="hero-lead reveal">I'm an early-career web developer from Lagos, building responsive websites with HTML, CSS, and JavaScript.</p>
+          <p class="hero-eyebrow reveal"><span class="status-dot"></span> <span data-i18n="availability">Open to remote opportunities</span></p>
+          <h1 class="reveal"><span data-i18n="heroIntro">Hi, I'm</span> <span class="gradient-text">Caleb Ibezim</span><br /><span data-i18n="heroStatement">I build responsive websites.</span></h1>
+          <p class="hero-lead reveal" data-i18n="heroLead">I'm an early-career web developer from Lagos, building responsive websites with HTML, CSS, and JavaScript.</p>
           <div class="hero-actions reveal">
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+            <a href="#projects" class="btn btn-primary" data-i18n="viewWork">View My Work</a>
+            <a href="#contact" class="btn btn-ghost" data-i18n="getTouch">Get In Touch</a>
           </div>
           <ul class="hero-stats reveal">
-            <li><strong class="gradient-text">B.Sc.</strong><span>Computer Science</span></li>
-            <li><strong class="gradient-text">3</strong><span>Featured projects</span></li>
-            <li><strong class="gradient-text">Lagos</strong><span>Based in Nigeria</span></li>
+            <li><strong class="gradient-text">B.Sc.</strong><span data-i18n="statDegree">Computer Science</span></li>
+            <li><strong class="gradient-text">3</strong><span data-i18n="statProjects">Featured projects</span></li>
+            <li><strong class="gradient-text">Lagos</strong><span data-i18n="statLocation">Based in Nigeria</span></li>
           </ul>
         </div>
         <div class="hero-visual reveal" aria-hidden="true">
@@ -69,7 +69,7 @@
         <div class="about-card reveal">
           <div class="about-avatar"><span class="gradient-text">C</span></div>
           <h3>Caleb Ibezim</h3>
-          <p class="about-role">Early-Career Web Developer</p>
+          <p class="about-role" data-i18n="profileRole">Early-Career Web Developer</p>
           <ul class="about-facts">
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.99-5.54 10.4-7.4 12.14a1 1 0 0 1-1.2 0C9.54 20.4 4 14.99 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -86,26 +86,26 @@
           </ul>
         </div>
         <div class="about-copy">
-          <p class="eyebrow reveal">About Me</p>
-          <h2 class="section-title reveal">Turning ideas into <span class="gradient-text">working products</span></h2>
-          <p class="reveal">I'm a Lagos-based Computer Science graduate who enjoys turning ideas into clear, responsive websites.</p>
-          <p class="reveal">I earned a B.Sc. in Computer Science from Enugu State University of Science and Technology (2019–2023). My experience in quality control, customer service, and virtual assistance has strengthened my attention to detail, organization, and communication. I bring those strengths to each project while building my front-end skills through hands-on work with HTML, CSS, JavaScript, GitHub, and Vercel.</p>
+          <p class="eyebrow reveal" data-i18n="aboutLabel">About Me</p>
+          <h2 class="section-title reveal"><span data-i18n="aboutTitleStart">Turning ideas into</span> <span class="gradient-text" data-i18n="aboutTitleEnd">working products</span></h2>
+          <p class="reveal" data-i18n="aboutIntro">I'm a Lagos-based Computer Science graduate who enjoys turning ideas into clear, responsive websites.</p>
+          <p class="reveal" data-i18n="aboutBody">I earned a B.Sc. in Computer Science from Enugu State University of Science and Technology (2019–2023). My experience in quality control, customer service, and virtual assistance has strengthened my attention to detail, organization, and communication. I bring those strengths to each project while building my front-end skills through hands-on work with HTML, CSS, JavaScript, GitHub, and Vercel.</p>
           <ul class="about-points reveal">
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-              Responsive web experiences
+              <span data-i18n="aboutPoint1">Responsive web experiences</span>
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-              A careful eye for detail
+              <span data-i18n="aboutPoint2">A careful eye for detail</span>
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-              Clear communication and teamwork
+              <span data-i18n="aboutPoint3">Clear communication and teamwork</span>
             </li>
           </ul>
           <a href="assets/Caleb_Ibezim_CV.docx" class="btn btn-ghost reveal" download="Caleb_Ibezim_CV.docx">
-            Download my CV
+            <span data-i18n="downloadCv">Download my CV</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           </a>
         </div>
@@ -116,81 +116,82 @@
     <section class="section" id="skills">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">My Skills</p>
-          <h2 class="section-title">Skills and <span class="gradient-text">tools I use</span></h2>
-          <p class="section-lead">A practical mix of web technologies, creative tools, and strengths built through work experience.</p>
+          <p class="eyebrow" data-i18n="skillsLabel">My Skills</p>
+          <h2 class="section-title"><span data-i18n="skillsTitleStart">Skills and</span> <span class="gradient-text" data-i18n="skillsTitleEnd">tools I use</span></h2>
+          <p class="section-lead" data-i18n="skillsLead">A practical mix of web technologies, creative tools, and strengths built through work experience.</p>
         </div>
         <div class="skills-grid">
           <article class="skill-card reveal">
             <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg></div>
-            <h3>Front-End Web</h3>
-            <p>HTML5, CSS3, and JavaScript for responsive pages and interactive features.</p>
+            <h3 data-i18n="skillWebTitle">Front-End Web</h3>
+            <p data-i18n="skillWebBody">HTML5, CSS3, and JavaScript for responsive pages and interactive features.</p>
           </article>
           <article class="skill-card reveal">
             <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="3" r="2"/><path d="M6 5v14"/><circle cx="18" cy="6" r="2"/><path d="M8 8a10 10 0 0 0 8-2"/><circle cx="18" cy="18" r="2"/><path d="M6 17a10 10 0 0 0 10 1"/></svg></div>
-            <h3>GitHub and Vercel</h3>
-            <p>Sharing code on GitHub and deploying live project builds with Vercel.</p>
+            <h3 data-i18n="skillHostingTitle">GitHub and Vercel</h3>
+            <p data-i18n="skillHostingBody">Sharing code on GitHub and deploying live project builds with Vercel.</p>
           </article>
           <article class="skill-card reveal">
             <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
-            <h3>Productivity Tools</h3>
-            <p>Microsoft Word, Excel, Zoom, and Trello for organizing work and communication.</p>
+            <h3 data-i18n="skillProductivityTitle">Productivity Tools</h3>
+            <p data-i18n="skillProductivityBody">Microsoft Word, Excel, Zoom, and Trello for organizing work and communication.</p>
           </article>
           <article class="skill-card reveal">
             <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3Z"/><path d="m19 15 1.1 2.9L23 19l-2.9 1.1L19 23l-1.1-2.9L15 19l2.9-1.1L19 15Z"/></svg></div>
-            <h3>Creative and AI Tools</h3>
-            <p>Canva for graphic design and ChatGPT as a support tool for learning and project work.</p>
+            <h3 data-i18n="skillCreativeTitle">Creative and AI Tools</h3>
+            <p data-i18n="skillCreativeBody">Canva for graphic design and ChatGPT as a support tool for learning and project work.</p>
           </article>
           <article class="skill-card reveal">
             <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></svg></div>
-            <h3>Professional Strengths</h3>
-            <p>Quality control, customer service, record keeping, organization, and clear communication.</p>
+            <h3 data-i18n="skillStrengthTitle">Professional Strengths</h3>
+            <p data-i18n="skillStrengthBody">Quality control, customer service, record keeping, organization, and clear communication.</p>
           </article>
-        </div>      </div>
+        </div>
+      </div>
     </section>
  
     <!-- ============ PROJECTS ============ -->
     <section class="section" id="projects">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Selected Work</p>
-          <h2 class="section-title">Projects I'm <span class="gradient-text">proud of</span></h2>
-          <p class="section-lead">Three projects across storefront, restaurant, and editorial web design.</p>
+          <p class="eyebrow" data-i18n="projectsLabel">Selected Work</p>
+          <h2 class="section-title"><span data-i18n="projectsTitleStart">Projects I'm</span> <span class="gradient-text" data-i18n="projectsTitleEnd">proud of</span></h2>
+          <p class="section-lead" data-i18n="projectsLead">Three projects across storefront, restaurant, and editorial web design.</p>
         </div>
         <div class="projects-grid">
           <article class="project-card reveal">
             <div class="project-thumb thumb-1 has-screenshot"><img src="assets/4eva-klasy-preview.png" alt="Screenshot of the 4EVA-KLASY storefront homepage"></div>
             <div class="project-body">
               <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>localStorage</span><span>Vercel</span><span>Supabase setup</span></div>
-              <h3>4EVA-KLASY — Fashion &amp; Care Store</h3>
-              <p>My first project: a responsive storefront for clothing and personal-care products, including category browsing, product cards, cart, and account flows.</p>
-              <p class="project-note">Supabase Auth is scaffolded but not configured; demo accounts and orders use this browser's local storage.</p>
-              <div class="project-links"><a class="project-link" href="https://klasy.vercel.app/" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a></div>
+              <h3 data-i18n="project1Title">4EVA-KLASY — Fashion &amp; Care Store</h3>
+              <p data-i18n="project1Description">My first project: a responsive storefront for clothing and personal-care products, including category browsing, product cards, cart, and account flows.</p>
+              <p class="project-note" data-i18n="project1Note">Supabase Auth is scaffolded but not configured; demo accounts and orders use this browser's local storage.</p>
+              <div class="project-links"><a class="project-link" href="https://klasy.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="visitSite">Visit live site</span> <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
           <article class="project-card reveal">
             <div class="project-thumb thumb-2 has-screenshot"><img src="assets/juniper-stone-hero.jpg" alt="Warm wood-fired dining room photo from the Juniper and Stone restaurant site"></div>
             <div class="project-body">
               <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Google Fonts</span><span>Vercel</span></div>
-              <h3>Juniper &amp; Stone — Restaurant Website</h3>
-              <p>A responsive restaurant website with a seasonal menu, restaurant story, visit details, and reservation/account pages.</p>
-              <p class="project-note">Sign-in and reservations are preview flows; authentication and booking services are not connected yet.</p>
-              <div class="project-links"><a class="project-link" href="https://resturant-iota-five.vercel.app/" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a></div>
+              <h3 data-i18n="project2Title">Juniper &amp; Stone — Restaurant Website</h3>
+              <p data-i18n="project2Description">A responsive restaurant website with a seasonal menu, restaurant story, visit details, and reservation/account pages.</p>
+              <p class="project-note" data-i18n="project2Note">Sign-in and reservations are preview flows; authentication and booking services are not connected yet.</p>
+              <div class="project-links"><a class="project-link" href="https://resturant-iota-five.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="visitSite">Visit live site</span> <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
           <article class="project-card reveal">
             <div class="project-thumb thumb-3 has-screenshot"><img src="assets/nigeria-brief-ballot.jpg" alt="Ballot box in Nigeria's green and white colours from the Nigeria Brief editorial page"></div>
             <div class="project-body">
               <div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive Design</span><span>Vercel</span></div>
-              <h3>Nigeria Brief — Election Opinion</h3>
-              <p>A focused editorial page presenting an opinion piece on the questions voters should ask about Nigeria's next election.</p>
-              <p class="project-note">Static single-page build with embedded CSS; no JavaScript or backend.</p>
-              <div class="project-links"><a class="project-link" href="https://intro-rose.vercel.app/" target="_blank" rel="noopener noreferrer">Read the article <span aria-hidden="true">↗</span></a></div>
+              <h3 data-i18n="project3Title">Nigeria Brief — Election Opinion</h3>
+              <p data-i18n="project3Description">A focused editorial page presenting an opinion piece on the questions voters should ask about Nigeria's next election.</p>
+              <p class="project-note" data-i18n="project3Note">Static single-page build with embedded CSS; no JavaScript or backend.</p>
+              <div class="project-links"><a class="project-link" href="https://intro-rose.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="readArticle">Read the article</span> <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
         </div>
         <div class="projects-more reveal">
-          <a href="#contact" class="btn btn-ghost">Ask about my work <span aria-hidden="true">→</span></a>
+          <a href="#contact" class="btn btn-ghost"><span data-i18n="askWork">Ask about my work</span> <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -199,9 +200,9 @@
     <section class="section" id="contact">
       <div class="container">
         <div class="contact-card reveal">
-          <p class="eyebrow">Contact</p>
-          <h2 class="section-title">Let's build something <span class="gradient-text">great together</span></h2>
-          <p class="section-lead">Have a project in mind, or want to say hello? I would be happy to hear from you.</p>
+          <p class="eyebrow" data-i18n="contactLabel">Contact</p>
+          <h2 class="section-title"><span data-i18n="contactTitleStart">Let's build something</span> <span class="gradient-text" data-i18n="contactTitleEnd">great together</span></h2>
+          <p class="section-lead" data-i18n="contactLead">Have a project in mind, or want to say hello? I would be happy to hear from you.</p>
           <div class="contact-actions">
             <a class="btn btn-primary" href="mailto:caleb19ibe@gmail.com">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
@@ -217,16 +218,25 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <a href="#home" class="logo">Caleb Ibezim<span>.</span></a>
-      <p>© <span id="year">2026</span> Caleb Ibezim. Designed &amp; built with care.</p>
-      <a href="#home" class="back-top">Back to top
+      <p>© <span id="year">2026</span> Caleb Ibezim.</p>
+      <a href="#home" class="back-top"><span data-i18n="backTop">Back to top</span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
       </a>
+    </div>
+    <div class="container language-switcher">
+      <label for="language-select" data-i18n="languageLabel">Language</label>
+      <select id="language-select" aria-label="Select language">
+        <option value="en">English</option><option value="es">Español</option><option value="fr">Français</option><option value="pt">Português</option><option value="ar">العربية</option><option value="de">Deutsch</option><option value="it">Italiano</option><option value="ja">日本語</option><option value="hi">हिन्दी</option><option value="zh">中文</option>
+      </select>
     </div>
   </footer>
  
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
 
 
 

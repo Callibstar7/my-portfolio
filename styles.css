@@ -1000,3 +1000,34 @@ html.js .reveal.visible {
 
 
 
+
+/* ---------- Language selector ---------- */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: .75rem;
+  padding-block: 1rem 1.5rem;
+  color: var(--muted);
+  font-size: .875rem;
+}
+
+.language-switcher select {
+  min-width: 150px;
+  padding: .65rem 2rem .65rem .9rem;
+  color: var(--text);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.language-switcher select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 560px) {
+  .language-switcher { justify-content: center; }
+}
